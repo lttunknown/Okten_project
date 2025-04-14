@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EFF0F3;;
+    color: #333;
+}
+/* Header Styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+}
+
+.header-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #001858;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.blog {
+    font-size: 0.5em;
+    vertical-align: middle;
+    color: #6246EA;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #050303;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #6246EA;
+}
+
+.buy-coffee {
+    background: #6246EA;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #FFFFFE;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s;
+}
+
+.buy-coffee:hover {
+    background-color: #4d36d1;
+}
+
+.buy-coffee img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Main Content Styles */
+.main-container {
+    max-width: 1250px;
+    margin: 195px auto;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    gap: 195px;
+}
+
+.text-content {
+    flex: 1;
+}
+.header-title{
+    color: #2B2C34;
+    font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+    .title {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .description {
+        margin: 30px 116px 30px 0;
+        color: #9A9494;
+        font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .subscribe-form {
+        display: flex;
+        gap: 12px;
+        margin-top: 30px;
+        max-width: 500px;
+    }
+
+    .email-input {
+        flex: 1;
+        padding: 14px 18px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 16px;
+        transition: border-color 0.3s;
+    }
+
+    .email-input:focus {
+        outline: none;
+        border-color: #6246EA;
+    }
+
+    .subscribe-btn {
+        background-color: #6246EA;
+        color: white;
+        border: none;
+        padding: 14px 28px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .subscribe-btn:hover {
+        background-color: #4d36d1;
+    }
+
+    .image-content {
+        flex: 1;
+        text-align: center;
+    }
+
+    .image-content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1024px) {
+        .main-container {
+            flex-direction: column-reverse;
+            gap: 40px;
+        }
+
+        .text-content, .image-content {
+            text-align: center;
+            width: 100%;
+        }
+
+        .description {
+            max-width: 100%;
+        }
+
+        .subscribe-form {
+            justify-content: center;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .header-container {
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        nav ul {
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .main-container {
+            padding: 0 20px;
+            margin: 40px auto;
+        }
+
+        .header-title {
+            font-size: 36px;
+        }
+
+        .title {
+            font-size: 20px;
+        }
+    }
+.middle-section {
+    width: 1440px;
+    height: 500px;
+    flex-shrink: 0;
+    background: #EFF0F3;;
+}
+.middle-section .middle-container {
+    display: flex;
+    width: 1252px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 37px
+}
+/*Browse The CategoryBrowse The CategoryBrowse The CategoryBrowse The Category*/
+.categories-container {
+    width: 1440px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #EFF0F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categories {
+    display: flex;
+    gap: 37px; /* Фиксированный отступ 37px между блоками */
+    justify-content: center;
+    padding: 0 40px; /* Добавлены боковые отступы */
+    flex-wrap: wrap;
+}
+
+.category-item {
+    width: 220px;
+    height: 280px;
+    flex-shrink: 0;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-placeholder {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    gap: 37px;
+}
+
+.see-all {
+    color: #293bc5;
+    text-align: right;
+    font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.category-item.tailwind-block {
+    background-color: #6246EA;
+    color: white;
+}
+
+.category-item.tailwind-block .image-placeholder {
+    background-color: rgba(255, 255, 255, 0.2);
+}
