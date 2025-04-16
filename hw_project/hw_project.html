@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,28 +12,25 @@
     <!-- Фиксированное навигационное меню -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">Dasteen.Blog</div>
+       <h1><span> Dasteen</span><span class="blog">.Blog</span></h1>
             <div class="menu">
                 <a href="#" class="menu-item">Home</a>
                 <a href="#" class="menu-item">Category</a>
                 <a href="#" class="menu-item">About Me</a>
                 <div class="search">
-                    <span class="search-icon">🔍</span>
+                    <span class="search-icons"><img src="favicons/search.ico" alt="Search icon"></span>
                     <span class="search-text">Search</span>
                 </div>
-                <button class="coffee-button">Buy Me A Coffee</button>
+                <button class="coffee-button"><span class="coffee-icon"><img src="favicons/coffee.png" alt="Search icon"></span>Buy Me A Coffee</button>
             </div>
         </div>
     </nav>
 
-    <!-- Основное содержимое -->
     <main class="content">
         <!-- Секция Hero -->
         <section class="hero-section">
             <div class="hero-content">
-                <h1 class="hero-title">Hi, I'm Dasteen</h1>
-                <h2 class="hero-subtitle">Front end dev</h2>
-
+                <h1 class="hero-title">Hi, I'm Dasteen <br>Front end dev</h1>
                 <div class="hero-description">
                     <div class="vertical-line"></div>
                     <div class="text-block">
@@ -43,436 +40,423 @@
                         </p>
 
                         <div class="subscription-form">
-                            <input type="email" placeholder="Enter your email" class="email-input">
-                            <button class="subscribe-button">Subscribe</button>
+                            <input type="email" placeholder="Enter your email here..." class="email-input">
+                            <button class="subscribe-button-top">Subscribe</button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Картинка справа -->
             <div class="hero-image">
-                [Картинка сюда]
+                <img src="favicons/learn-coding.png" alt="learn">
             </div>
         </section>
 
-        <!-- Отступ после формы -->
         <div class="email-gap"></div>
 
         <!-- Секция категорий -->
         <section class="categories-section">
             <div class="categories-header">
                 <h3 class="categories-title">Browse the category</h3>
-                <a href="#" class="categories-link">See all category</a>
+                <a href="#" class="categories-link">See all category<span class="strelochka-icon"><img src="favicons/strelochka.png" alt="strelka"></span></a>
             </div>
 
             <div class="categories-grid">
-                <!-- Блок 1 -->
                 <div class="category-card">
                     <div class="category-icon">
-                        [Иконка]
+                        <img src="favicons/Frame1.png" alt="frame1">
                     </div>
-                    <div class="category-name">ЯЗЫК</div>
+                    <div class="category-name">CSS</div>
                 </div>
 
-                <!-- Блок 2 -->
                 <div class="category-card">
                     <div class="category-icon">
-                        [Иконка]
+                        <img src="favicons/Frame2.png" alt="frame2">
                     </div>
-                    <div class="category-name">ЯЗЫК</div>
+                    <div class="category-name">Javascript</div>
                 </div>
 
-                <!-- Блок 3 (синий) -->
                 <div class="category-card blue-card">
                     <div class="category-icon">
-                        [Иконка]
+                        <img src="favicons/Frame3.png" alt="frame3">
                     </div>
-                    <div class="category-name">ЯЗЫК</div>
+                    <div class="category-name blue card">Tailwind</div>
                 </div>
 
-                <!-- Блок 4 -->
                 <div class="category-card">
                     <div class="category-icon">
-                        [Иконка]
+                        <img src="favicons/Frame4.png" alt="frame4">
                     </div>
-                    <div class="category-name">ЯЗЫК</div>
+                    <div class="category-name">Vue JS</div>
                 </div>
 
-                <!-- Блок 5 -->
                 <div class="category-card">
                     <div class="category-icon">
-                        [Иконка]
+                        <img src="favicons/Frame5.png" alt="frame5">
                     </div>
-                    <div class="category-name">ЯЗЫК</div>
+                    <div class="category-name">React JS</div>
                 </div>
             </div>
         </section>
-
-        <!-- ... предыдущий код остается без изменений до конца categories-section ... -->
+    </main>
 
         <main class="articles-main">
             <!-- Первая группа блоков с заголовком -->
             <div class="articles-group">
                 <div class="articles-header">
                     <h2 class="section-title">Featured Article</h2>
-                    <button class="see-all-button">See All Article</button>
+                    <a href="#" class="see-all-button">See all article<span class="strelochka-icon"><img src="favicons/strelochka.png" alt="strelka"></span></a>
                 </div>
                 <div class="articles-row">
                     <!-- Блоки 1-4 -->
                     <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
+                        <div class="article-image"><img src="favicons/imageMiddle.png" alt="mid1"></div>
                         <div class="article-content">
-                            <div class="article-text">текст</div>
+                            <div class="article-text">Fundamental of javascript</div>
                             <div class="article-author">
-                                <div class="author-photo"></div>
+                                <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
                                 <div class="author-info">
-                                    <div class="author-name">ИМЯ</div>
-                                    <div class="article-date">ДАТА</div>
+                                    <div class="author-name">Dasteen</div>
+                                    <div class="article-date">Jan 10, 2022</div>
                                 </div>
-                                <div class="article-tag">СЛОВО</div>
+                                <div class="article-tag">3 Min Read</div>
                             </div>
                         </div>
                     </div>
                     <!-- Повторяем еще 3 блока -->
                     <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
+                        <div class="article-image"><img src="favicons/imageMiddle2.png" alt="mid2"></div>
                         <div class="article-content">
-                            <div class="article-text">текст</div>
+                            <div class="article-text">Grid CSS make your life easier</div>
                             <div class="article-author">
-                                <div class="author-photo"></div>
+                                <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
                                 <div class="author-info">
-                                    <div class="author-name">ИЯ</div>
-                                    <div class="article-date">ДАТА</div>
+                                    <div class="author-name">Dasteen</div>
+                                    <div class="article-date">Jan 10, 2022</div>
                                 </div>
-                                <div class="article-tag">СЛОВО</div>
+                                <div class="article-tag">3 Min Read</div>
                             </div>
                         </div>
                     </div>
                     <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
+                        <div class="article-image"><img src="favicons/imageMiddle3.png" alt="mid3"></div>
                         <div class="article-content">
-                            <div class="article-text">текст</div>
+                            <div class="article-text">Make animated light mode and dark mode toggle with CSS</div>
                             <div class="article-author">
-                                <div class="author-photo"></div>
+                                <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
                                 <div class="author-info">
-                                    <div class="author-name">ИЯ</div>
-                                    <div class="article-date">ДАТА</div>
+                                    <div class="author-name">Dasteen</div>
+                                    <div class="article-date">Jan 10, 2022</div>
                                 </div>
-                                <div class="article-tag">СЛОВО</div>
+                                <div class="article-tag">3 Min Read</div>
                             </div>
                         </div>
                     </div>
                     <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
+                        <div class="article-image"><img src="favicons/imageMiddle4.png" alt="mid4"></div>
                         <div class="article-content">
-                            <div class="article-text">текст</div>
+                            <div class="article-text">Make animated light mode and dark mode toggle with CSS</div>
                             <div class="article-author">
-                                <div class="author-photo"></div>
+                                <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
                                 <div class="author-info">
-                                    <div class="author-name">ИЯ</div>
-                                    <div class="article-date">ДАТА</div>
+                                    <div class="author-name">Dasteen</div>
+                                    <div class="article-date">Jan 10, 2022</div>
                                 </div>
-                                <div class="article-tag">СЛОВО</div>
+                                <div class="article-tag">3 Min Read</div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Вторая группа (полная копия) -->
+                <div class="articles-group">
+                    <div class="articles-header">
+                        <h2 class="section-title">CSS</h2>
+                        <a href="#" class="see-all-button">See all article<span class="strelochka-icon"><img src="favicons/strelochka.png" alt="strelka"></span></a>
+                    </div>
+                    <div class="articles-row">
+                        <!-- Блоки 1-4 -->
+                        <div class="article-card">
+                            <div class="article-image"><img src="favicons/imageMiddle5.png" alt="mid5"></div>
+                            <div class="article-content">
+                                <div class="article-text">Flexbox cSS : Everything you need to know</div>
+                                <div class="article-author">
+                                    <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
+                                    <div class="author-info">
+                                        <div class="author-name">Dasteen</div>
+                                        <div class="article-date">Jan 10, 2022</div>
+                                    </div>
+                                    <div class="article-tag">3 Min Read</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Повторяем еще 3 блока -->
+                        <div class="article-card">
+                            <div class="article-image"><img src="favicons/imageMiddle2.png" alt="mid2"></div>
+                            <div class="article-content">
+                                <div class="article-text">Grid CSS make your life easier</div>
+                                <div class="article-author">
+                                    <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
+                                    <div class="author-info">
+                                        <div class="author-name">Dasteen</div>
+                                        <div class="article-date">Jan 10, 2022</div>
+                                    </div>
+                                    <div class="article-tag">3 Min Read</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-card">
+                            <div class="article-image"><img src="favicons/imageMiddle7.png" alt="mid7"></div>
+                            <div class="article-content">
+                                <div class="article-text">3 easy way to make div center</div>
+                                <div class="article-author">
+                                    <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
+                                    <div class="author-info">
+                                        <div class="author-name">Dasteen</div>
+                                        <div class="article-date">Jan 10, 2022</div>
+                                    </div>
+                                    <div class="article-tag">3 Min Read</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-card">
+                            <div class="article-image"><img src="favicons/imageMiddle3.png" alt="mid3"></div>
+                            <div class="article-content">
+                                <div class="article-text">Make animated light mode and dark mode toggle with CSS</div>
+                                <div class="article-author">
+                                    <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
+                                    <div class="author-info">
+                                        <div class="author-name">Dasteen</div>
+                                        <div class="article-date">Jan 10, 2022</div>
+                                    </div>
+                                    <div class="article-tag">3 Min Read</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="articles-group">
+                    <div class="articles-header">
+                        <h2 class="section-title">Javascript</h2>
+                        <a href="#" class="see-all-button">See all article<span class="strelochka-icon"><img src="favicons/strelochka.png" alt="strelka"></span></a>
+                    </div>
+                    <div class="articles-row">
+                        <!-- Блоки 1-4 -->
+                        <div class="article-card">
+                            <div class="article-image"><img src="favicons/imageMiddle9.png" alt="mid9"></div>
+                            <div class="article-content">
+                                <div class="article-text">array in javasript - Learn JS #3</div>
+                                <div class="article-author">
+                                    <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
+                                    <div class="author-info">
+                                        <div class="author-name">Dasteen</div>
+                                        <div class="article-date">Jan 10, 2022</div>
+                                    </div>
+                                    <div class="article-tag">3 Min Read</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Повторяем еще 3 блока -->
+                        <div class="article-card">
+                            <div class="article-image"><img src="favicons/imageMiddle.png" alt="mid1"></div>
+                            <div class="article-content">
+                                <div class="article-text">Fundamental of javascript</div>
+                                <div class="article-author">
+                                    <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
+                                    <div class="author-info">
+                                        <div class="author-name">Dasteen</div>
+                                        <div class="article-date">Jan 10, 2022</div>
+                                    </div>
+                                    <div class="article-tag">3 Min Read</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-card">
+                            <div class="article-image"><img src="favicons/imageMiddle11.png" alt="mid11"></div>
+                            <div class="article-content">
+                                <div class="article-text">7 project with javascript you must try for your portfolio</div>
+                                <div class="article-author">
+                                    <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
+                                    <div class="author-info">
+                                        <div class="author-name">Dasteen</div>
+                                        <div class="article-date">Jan 10, 2022</div>
+                                    </div>
+                                    <div class="article-tag">3 Min Read</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-card">
+                            <div class="article-image"><img src="favicons/imageMiddle12.png" alt="mid12"></div>
+                            <div class="article-content">
+                                <div class="article-text">make simple calculator with javascript</div>
+                                <div class="article-author">
+                                    <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
+                                    <div class="author-info">
+                                        <div class="author-name">Dasteen</div>
+                                        <div class="article-date">Jan 10, 2022</div>
+                                    </div>
+                                    <div class="article-tag">3 Min Read</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="articles-group">
+                    <div class="articles-header">
+                        <h2 class="section-title">React JS</h2>
+                        <a href="#" class="see-all-button">See all article<span class="strelochka-icon"><img src="favicons/strelochka.png" alt="strelka"></span></a>
+                    </div>
+                    <div class="articles-row">
+                        <!-- Блоки 1-4 -->
+                        <div class="article-card">
+                            <div class="article-image"><img src="favicons/imageMiddle13.png" alt="mid13"></div>
+                            <div class="article-content">
+                                <div class="article-text">first month of leaning react jS</div>
+                                <div class="article-author">
+                                    <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
+                                    <div class="author-info">
+                                        <div class="author-name">Dasteen</div>
+                                        <div class="article-date">Jan 10, 2022</div>
+                                    </div>
+                                    <div class="article-tag">3 Min Read</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Повторяем еще 3 блока -->
+                        <div class="article-card">
+                            <div class="article-image"><img src="favicons/imageMiddle14.png" alt="mid14"></div>
+                            <div class="article-content">
+                                <div class="article-text">build markdown editor with react JS</div>
+                                <div class="article-author">
+                                    <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
+                                    <div class="author-info">
+                                        <div class="author-name">Dasteen</div>
+                                        <div class="article-date">Jan 10, 2022</div>
+                                    </div>
+                                    <div class="article-tag">3 Min Read</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-card">
+                            <div class="article-image"><img src="favicons/imageMiddle15.png" alt="mid15"></div>
+                            <div class="article-content">
+                                <div class="article-text">getting started with react JS</div>
+                                <div class="article-author">
+                                    <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
+                                    <div class="author-info">
+                                        <div class="author-name">Dasteen</div>
+                                        <div class="article-date">Jan 10, 2022</div>
+                                    </div>
+                                    <div class="article-tag">3 Min Read</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-card">
+                            <div class="article-image"><img src="favicons/imageMiddle4.png" alt="mid4"></div>
+                            <div class="article-content">
+                                <div class="article-text">Make tic tac toe games with react JS</div>
+                                <div class="article-author">
+                                    <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
+                                    <div class="author-info">
+                                        <div class="author-name">Dasteen</div>
+                                        <div class="article-date">Jan 10, 2022</div>
+                                    </div>
+                                    <div class="article-tag">3 Min Read</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="more-articles-container">
+                    <button class="more-articles-button">More Article</button>
+                </div>
+
+                <section class="subscribe-section">
+                    <div class="subscribe-container">
+                        <!-- Верхняя часть с аватаром -->
+                        <div class="subscribe-top">
+                            <div class="subscribe-avatar">
+                                <img src="favicons/bottom-photo.png" width=81px; height=107px; alt="bot1">
+                            </div>
+                        </div>
+
+                        <!-- Нижняя часть с контентом -->
+                        <div class="subscribe-bottom">
+                            <div class="subscribe-header">
+                                <h3 class="subscribe-title">Subscribe For the lastest updates</h3>
+                                <p class="subscribe-subtitle">Subscribe to newsletter and never miss the new post every week.</p>
+                            </div>
+                            <div class="subscription-form">
+                                <input type="email" placeholder="Enter your email here..." class="email-input">
+                                <button class="subscribe-button">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-
-            <!-- Вторая группа (полная копия) -->
-            <div class="articles-group">
-                <div class="articles-header">
-                    <h2 class="section-title">Featured Article</h2>
-                    <button class="see-all-button">See All Article</button>
-                </div>
-                <div class="articles-row">
-                    <!-- Блоки 1-4 -->
-                    <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
-                        <div class="article-content">
-                            <div class="article-text">текст</div>
-                            <div class="article-author">
-                                <div class="author-photo"></div>
-                                <div class="author-info">
-                                    <div class="author-name">ИМЯ</div>
-                                    <div class="article-date">ДАТА</div>
-                                </div>
-                                <div class="article-tag">СЛОВО</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Повторяем еще 3 блока -->
-                    <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
-                        <div class="article-content">
-                            <div class="article-text">текст</div>
-                            <div class="article-author">
-                                <div class="author-photo"></div>
-                                <div class="author-info">
-                                    <div class="author-name">ИЯ</div>
-                                    <div class="article-date">ДАТА</div>
-                                </div>
-                                <div class="article-tag">СЛОВО</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
-                        <div class="article-content">
-                            <div class="article-text">текст</div>
-                            <div class="article-author">
-                                <div class="author-photo"></div>
-                                <div class="author-info">
-                                    <div class="author-name">ИЯ</div>
-                                    <div class="article-date">ДАТА</div>
-                                </div>
-                                <div class="article-tag">СЛОВО</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
-                        <div class="article-content">
-                            <div class="article-text">текст</div>
-                            <div class="article-author">
-                                <div class="author-photo"></div>
-                                <div class="author-info">
-                                    <div class="author-name">ИЯ</div>
-                                    <div class="article-date">ДАТА</div>
-                                </div>
-                                <div class="article-tag">СЛОВО</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="articles-group">
-                <div class="articles-header">
-                    <h2 class="section-title">Featured Article</h2>
-                    <button class="see-all-button">See All Article</button>
-                </div>
-                <div class="articles-row">
-                    <!-- Блоки 1-4 -->
-                    <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
-                        <div class="article-content">
-                            <div class="article-text">текст</div>
-                            <div class="article-author">
-                                <div class="author-photo"></div>
-                                <div class="author-info">
-                                    <div class="author-name">ИМЯ</div>
-                                    <div class="article-date">ДАТА</div>
-                                </div>
-                                <div class="article-tag">СЛОВО</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Повторяем еще 3 блока -->
-                    <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
-                        <div class="article-content">
-                            <div class="article-text">текст</div>
-                            <div class="article-author">
-                                <div class="author-photo"></div>
-                                <div class="author-info">
-                                    <div class="author-name">ИЯ</div>
-                                    <div class="article-date">ДАТА</div>
-                                </div>
-                                <div class="article-tag">СЛОВО</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
-                        <div class="article-content">
-                            <div class="article-text">текст</div>
-                            <div class="article-author">
-                                <div class="author-photo"></div>
-                                <div class="author-info">
-                                    <div class="author-name">ИЯ</div>
-                                    <div class="article-date">ДАТА</div>
-                                </div>
-                                <div class="article-tag">СЛОВО</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
-                        <div class="article-content">
-                            <div class="article-text">текст</div>
-                            <div class="article-author">
-                                <div class="author-photo"></div>
-                                <div class="author-info">
-                                    <div class="author-name">ИЯ</div>
-                                    <div class="article-date">ДАТА</div>
-                                </div>
-                                <div class="article-tag">СЛОВО</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="articles-group">
-                <div class="articles-header">
-                    <h2 class="section-title">Featured Article</h2>
-                    <button class="see-all-button">See All Article</button>
-                </div>
-                <div class="articles-row">
-                    <!-- Блоки 1-4 -->
-                    <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
-                        <div class="article-content">
-                            <div class="article-text">текст</div>
-                            <div class="article-author">
-                                <div class="author-photo"></div>
-                                <div class="author-info">
-                                    <div class="author-name">ИМЯ</div>
-                                    <div class="article-date">ДАТА</div>
-                                </div>
-                                <div class="article-tag">СЛОВО</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Повторяем еще 3 блока -->
-                    <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
-                        <div class="article-content">
-                            <div class="article-text">текст</div>
-                            <div class="article-author">
-                                <div class="author-photo"></div>
-                                <div class="author-info">
-                                    <div class="author-name">ИЯ</div>
-                                    <div class="article-date">ДАТА</div>
-                                </div>
-                                <div class="article-tag">СЛОВО</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
-                        <div class="article-content">
-                            <div class="article-text">текст</div>
-                            <div class="article-author">
-                                <div class="author-photo"></div>
-                                <div class="author-info">
-                                    <div class="author-name">ИЯ</div>
-                                    <div class="article-date">ДАТА</div>
-                                </div>
-                                <div class="article-tag">СЛОВО</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="article-card">
-                        <div class="article-image">[Картинка]</div>
-                        <div class="article-content">
-                            <div class="article-text">текст</div>
-                            <div class="article-author">
-                                <div class="author-photo"></div>
-                                <div class="author-info">
-                                    <div class="author-name">ИЯ</div>
-                                    <div class="article-date">ДАТА</div>
-                                </div>
-                                <div class="article-tag">СЛОВО</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="more-articles-container">
-                <button class="more-articles-button">More Article</button>
-            </div>
-
-            <section class="subscribe-section">
-                <div class="subscribe-container">
-                    <!-- Верхняя часть с аватаром -->
-                    <div class="subscribe-top">
-                        <div class="subscribe-avatar">
-                            [Аватар]
-                        </div>
-                    </div>
-
-                    <!-- Нижняя часть с контентом -->
-                    <div class="subscribe-bottom">
-                        <div class="subscribe-header">
-                            <h3 class="subscribe-title">Subscribe For the lastest updates</h3>
-                            <p class="subscribe-subtitle">Subscribe to newsletter and never miss the new post every week.</p>
-                        </div>
-                        <div class="subscription-form">
-                            <input type="email" placeholder="Enter your email" class="email-input">
-                            <button class="subscribe-button">Subscribe</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <!-- Правый блок (805x245) -->
-            <footer class="footer">
-                <div class="footer-container">
-                    <!-- Левый блок -->
-                    <div class="footer-left">
-                        <div class="footer-logo">Dasteen.blog</div>
-                        <div class="footer-author">Digitaldastin by Dastin Darmawan</div>
-                        <div class="footer-socials">
-                            <a href="#" class="social-icon">[Icon1]</a>
-                            <a href="#" class="social-icon">[Icon2]</a>
-                            <a href="#" class="social-icon">[Icon3]</a>
-                            <a href="#" class="social-icon">[Icon4]</a>
-                        </div>
-                    </div>
-
-                    <!-- Правый блок с 4 колонками -->
-                    <div class="footer-right">
-                        <div class="footer-columns">
-                            <!-- Колонка Category -->
-                            <div class="footer-column category-column">
-                                <h4 class="column-title">Category</h4>
-                                <a href="#" class="footer-link">CSS</a>
-                                <a href="#" class="footer-link">JavaScript</a>
-                                <a href="#" class="footer-link">Tailwind</a>
-                                <a href="#" class="footer-link">React JS</a>
-                                <a href="#" class="footer-link">More Category</a>
-                            </div>
-
-                            <!-- Колонка About Me -->
-                            <div class="footer-column about-column">
-                                <h4 class="column-title">About Me</h4>
-                                <a href="#" class="footer-link">Bio</a>
-                                <a href="#" class="footer-link">Projects</a>
-                                <a href="#" class="footer-link">Contact</a>
-                            </div>
-
-                            <!-- Колонка Get in Touch -->
-                            <div class="footer-column touch-column">
-                                <h4 class="column-title">Get in Touch</h4>
-                                <a href="mailto:contact@dasteen.blog" class="footer-link">Email</a>
-                                <a href="#" class="footer-link">Twitter</a>
-                            </div>
-
-                            <!-- Колонка Follow Us -->
-                            <div class="footer-column follow-column">
-                                <h4 class="column-title">Follow Us</h4>
-                                <a href="#" class="footer-link">GitHub</a>
-                                <a href="#" class="footer-link">Dribbble</a>
-                                <a href="#" class="footer-link">Instagram</a>
-                                <a href="#" class="footer-link">YouTube</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-bottom">
-                        <div class="footer-line"></div>
-                        <div class="footer-copyright">© 2025 Digitaldastin</div>
-                    </div>
-
-                </div>
-            </footer>
-
         </main>
-    </main>
-</div>
+    </div>
+                <footer class="footer">
+                    <div class="footer-container">
+                        <!-- Левый блок -->
+                        <div class="footer-left">
+                            <h1><span> Dasteen</span><span class="blog">.Blog</span></h1>
+                            <div class="footer-author">Digitaldastin by Dastin Darmawan</div>
+                            <div class="footer-socials">
+                                <a href="#" class="social-icon"><img src="favicons/small1.png" width=24px; height=24px; alt="small1"></a>
+                                <a href="#" class="social-icon"><img src="favicons/small2.png" width=20px; height=20px; alt="small2"></a>
+                                <a href="#" class="social-icon"><img src="favicons/small3.png" width=24px; height=24px; alt="small3"></a>
+                                <a href="#" class="social-icon"><img src="favicons/small4.png" width=24px; height=24px; alt="small4"></a>
+                            </div>
+                        </div>
+
+                        <!-- Правый блок с 4 колонками -->
+                        <div class="footer-right">
+                            <div class="footer-columns">
+                                <!-- Колонка Category -->
+                                <div class="footer-column category-column">
+                                    <h4 class="column-title">Category</h4>
+                                    <a href="#" class="footer-link">CSS</a>
+                                    <a href="#" class="footer-link">JavaScript</a>
+                                    <a href="#" class="footer-link">Tailwind</a>
+                                    <a href="#" class="footer-link">React JS</a>
+                                    <a href="#" class="footer-link">More Category</a>
+                                </div>
+
+                                <!-- Колонка About Me -->
+                                <div class="footer-column about-column">
+                                    <h4 class="column-title">About Me</h4>
+                                    <a href="#" class="footer-link">Bio</a>
+                                    <a href="#" class="footer-link">Projects</a>
+                                    <a href="#" class="footer-link">Contact</a>
+                                </div>
+
+                                <!-- Колонка Get in Touch -->
+                                <div class="footer-column touch-column">
+                                    <h4 class="column-title">Get in Touch</h4>
+                                    <a href="mailto:contact@dasteen.blog" class="footer-link">Email</a>
+                                    <a href="#" class="footer-link">Twitter</a>
+                                </div>
+
+                                <!-- Колонка Follow Us -->
+                                <div class="footer-column follow-column">
+                                    <h4 class="column-title">Follow Us</h4>
+                                    <a href="#" class="footer-link">GitHub</a>
+                                    <a href="#" class="footer-link">Dribbble</a>
+                                    <a href="#" class="footer-link">Instagram</a>
+                                    <a href="#" class="footer-link">YouTube</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-bottom">
+                            <div class="footer-line"></div>
+                            <div class="footer-copyright">© 2025 Digitaldastin</div>
+                        </div>
+                    </div>
+                </footer>
+
 </body>
 </html>
