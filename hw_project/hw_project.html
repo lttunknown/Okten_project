@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="workspace">
-    <!-- Фиксированное навигационное меню -->
+    <div class="workspace">
+
     <nav class="navbar">
         <div class="nav-container">
        <h1><span> Dasteen</span><span class="blog">.Blog</span></h1>
@@ -18,7 +18,7 @@
                 <a href="#" class="menu-item">Category</a>
                 <a href="#" class="menu-item">About Me</a>
                 <div class="search">
-                    <span class="search-icons"><img src="favicons/search.ico" alt="Search icon"></span>
+                    <span class="search-icons"><img src="favicons/search.ico" wight=17px; height=17px alt="Search icon"></span>
                     <span class="search-text">Search</span>
                 </div>
                 <button class="coffee-button"><span class="coffee-icon"><img src="favicons/coffee.png" alt="Search icon"></span>Buy Me A Coffee</button>
@@ -27,7 +27,6 @@
     </nav>
 
     <main class="content">
-        <!-- Секция Hero -->
         <section class="hero-section">
             <div class="hero-content">
                 <h1 class="hero-title">Hi, I'm Dasteen <br>Front end dev</h1>
@@ -54,11 +53,10 @@
 
         <div class="email-gap"></div>
 
-        <!-- Секция категорий -->
         <section class="categories-section">
             <div class="categories-header">
                 <h3 class="categories-title">Browse the category</h3>
-                <a href="#" class="categories-link">See all category<span class="strelochka-icon"><img src="favicons/strelochka.png" alt="strelka"></span></a>
+                <a href="#" class="categories-link">See all category<span class="strelochka-icon"><img src="favicons/strelochka.png" width="6px" height="14px" alt="strelka"></span></a>
             </div>
 
             <div class="categories-grid">
@@ -101,15 +99,13 @@
     </main>
 
         <main class="articles-main">
-            <!-- Первая группа блоков с заголовком -->
             <div class="articles-group">
                 <div class="articles-header">
                     <h2 class="section-title">Featured Article</h2>
-                    <a href="#" class="see-all-button">See all article<span class="strelochka-icon"><img src="favicons/strelochka.png" alt="strelka"></span></a>
+                    <a href="#" class="see-all-button">See all article<span class="strelochka-icon"><img src="favicons/strelochka.png" width="6px" height="14px" alt="strelka"></span></a>
                 </div>
                 <div class="articles-row">
-                    <!-- Блоки 1-4 -->
-                    <div class="article-card">
+                    <div class="article-card-1">
                         <div class="article-image"><img src="favicons/imageMiddle.png" alt="mid1"></div>
                         <div class="article-content">
                             <div class="article-text">Fundamental of javascript</div>
@@ -138,7 +134,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="article-card">
+                    <div class="article-card-3">
                         <div class="article-image"><img src="favicons/imageMiddle3.png" alt="mid3"></div>
                         <div class="article-content">
                             <div class="article-text">Make animated light mode and dark mode toggle with CSS</div>
@@ -155,7 +151,7 @@
                     <div class="article-card">
                         <div class="article-image"><img src="favicons/imageMiddle4.png" alt="mid4"></div>
                         <div class="article-content">
-                            <div class="article-text">Make animated light mode and dark mode toggle with CSS</div>
+                            <div class="article-text">Make tic tac toe games with react JS</div>
                             <div class="article-author">
                                 <div class="author-photo"><img src="favicons/photo.png" width=57px; height=57px; alt="photo"></div>
                                 <div class="author-info">
@@ -168,14 +164,12 @@
                     </div>
                 </div>
 
-                <!-- Вторая группа (полная копия) -->
                 <div class="articles-group">
                     <div class="articles-header">
                         <h2 class="section-title">CSS</h2>
-                        <a href="#" class="see-all-button">See all article<span class="strelochka-icon"><img src="favicons/strelochka.png" alt="strelka"></span></a>
+                        <a href="#" class="see-all-button">See all article<span class="strelochka-icon"><img src="favicons/strelochka.png" width="6px" height="14px" alt="strelka"></span></a>
                     </div>
                     <div class="articles-row">
-                        <!-- Блоки 1-4 -->
                         <div class="article-card">
                             <div class="article-image"><img src="favicons/imageMiddle5.png" alt="mid5"></div>
                             <div class="article-content">
@@ -190,7 +184,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Повторяем еще 3 блока -->
                         <div class="article-card">
                             <div class="article-image"><img src="favicons/imageMiddle2.png" alt="mid2"></div>
                             <div class="article-content">
@@ -219,7 +212,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="article-card">
+                        <div class="article-card-8">
                             <div class="article-image"><img src="favicons/imageMiddle3.png" alt="mid3"></div>
                             <div class="article-content">
                                 <div class="article-text">Make animated light mode and dark mode toggle with CSS</div>
@@ -239,10 +232,9 @@
                 <div class="articles-group">
                     <div class="articles-header">
                         <h2 class="section-title">Javascript</h2>
-                        <a href="#" class="see-all-button">See all article<span class="strelochka-icon"><img src="favicons/strelochka.png" alt="strelka"></span></a>
+                        <a href="#" class="see-all-button">See all article<span class="strelochka-icon"><img src="favicons/strelochka.png" width="6px" height="14px" alt="strelka"></span></a>
                     </div>
                     <div class="articles-row">
-                        <!-- Блоки 1-4 -->
                         <div class="article-card">
                             <div class="article-image"><img src="favicons/imageMiddle9.png" alt="mid9"></div>
                             <div class="article-content">
@@ -257,8 +249,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Повторяем еще 3 блока -->
-                        <div class="article-card">
+                        <div class="article-card-10">
                             <div class="article-image"><img src="favicons/imageMiddle.png" alt="mid1"></div>
                             <div class="article-content">
                                 <div class="article-text">Fundamental of javascript</div>
@@ -272,7 +263,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="article-card">
+                        <div class="article-card-11">
                             <div class="article-image"><img src="favicons/imageMiddle11.png" alt="mid11"></div>
                             <div class="article-content">
                                 <div class="article-text">7 project with javascript you must try for your portfolio</div>
@@ -306,10 +297,9 @@
                 <div class="articles-group">
                     <div class="articles-header">
                         <h2 class="section-title">React JS</h2>
-                        <a href="#" class="see-all-button">See all article<span class="strelochka-icon"><img src="favicons/strelochka.png" alt="strelka"></span></a>
+                        <a href="#" class="see-all-button">See all article<span class="strelochka-icon"><img src="favicons/strelochka.png" width="6px" height="14px" alt="strelka"></span></a>
                     </div>
                     <div class="articles-row">
-                        <!-- Блоки 1-4 -->
                         <div class="article-card">
                             <div class="article-image"><img src="favicons/imageMiddle13.png" alt="mid13"></div>
                             <div class="article-content">
@@ -324,7 +314,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Повторяем еще 3 блока -->
                         <div class="article-card">
                             <div class="article-image"><img src="favicons/imageMiddle14.png" alt="mid14"></div>
                             <div class="article-content">
@@ -353,7 +342,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="article-card">
+                        <div class="article-card-16">
                             <div class="article-image"><img src="favicons/imageMiddle4.png" alt="mid4"></div>
                             <div class="article-content">
                                 <div class="article-text">Make tic tac toe games with react JS</div>
@@ -374,34 +363,30 @@
                     <button class="more-articles-button">More Article</button>
                 </div>
 
-                <section class="subscribe-section">
-                    <div class="subscribe-container">
-                        <!-- Верхняя часть с аватаром -->
-                        <div class="subscribe-top">
-                            <div class="subscribe-avatar">
-                                <img src="favicons/bottom-photo.png" width=81px; height=107px; alt="bot1">
-                            </div>
-                        </div>
-
-                        <!-- Нижняя часть с контентом -->
-                        <div class="subscribe-bottom">
-                            <div class="subscribe-header">
-                                <h3 class="subscribe-title">Subscribe For the lastest updates</h3>
-                                <p class="subscribe-subtitle">Subscribe to newsletter and never miss the new post every week.</p>
-                            </div>
-                            <div class="subscription-form">
-                                <input type="email" placeholder="Enter your email here..." class="email-input">
-                                <button class="subscribe-button">Subscribe</button>
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </div>
         </main>
+            <section class="subscribe-section">
+                <div class="subscribe-container">
+                    <div class="subscribe-top">
+                        <div class="subscribe-avatar">
+                            <img src="favicons/bottom-photo.png" width=81px; height=107px; alt="bot1">
+                        </div>
+                    </div>
+                    <div class="subscribe-bottom">
+                        <div class="subscribe-header">
+                            <h3 class="subscribe-title">Subscribe For the lastest updates</h3>
+                            <p class="subscribe-subtitle">Subscribe to newsletter and never miss the new post every week.</p>
+                        </div>
+                        <div class="subscription-form">
+                            <input type="email" placeholder="Enter your email here..." class="email-input">
+                            <button class="subscribe-button">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
     </div>
                 <footer class="footer">
                     <div class="footer-container">
-                        <!-- Левый блок -->
                         <div class="footer-left">
                             <h1><span> Dasteen</span><span class="blog">.Blog</span></h1>
                             <div class="footer-author">Digitaldastin by Dastin Darmawan</div>
@@ -412,11 +397,8 @@
                                 <a href="#" class="social-icon"><img src="favicons/small4.png" width=24px; height=24px; alt="small4"></a>
                             </div>
                         </div>
-
-                        <!-- Правый блок с 4 колонками -->
                         <div class="footer-right">
                             <div class="footer-columns">
-                                <!-- Колонка Category -->
                                 <div class="footer-column category-column">
                                     <h4 class="column-title">Category</h4>
                                     <a href="#" class="footer-link">CSS</a>
@@ -426,28 +408,25 @@
                                     <a href="#" class="footer-link">More Category</a>
                                 </div>
 
-                                <!-- Колонка About Me -->
                                 <div class="footer-column about-column">
                                     <h4 class="column-title">About Me</h4>
-                                    <a href="#" class="footer-link">Bio</a>
+                                    <a href="#" class="footer-link">About Me</a>
                                     <a href="#" class="footer-link">Projects</a>
-                                    <a href="#" class="footer-link">Contact</a>
+                                    <a href="#" class="footer-link">Achievement</a>
                                 </div>
 
-                                <!-- Колонка Get in Touch -->
                                 <div class="footer-column touch-column">
                                     <h4 class="column-title">Get in Touch</h4>
-                                    <a href="mailto:contact@dasteen.blog" class="footer-link">Email</a>
-                                    <a href="#" class="footer-link">Twitter</a>
+                                    <a href="#" class="footer-link">+62-8XXX-XXX-XX</a>
+                                    <a href="#" class="footer-link">demo@gmail.com</a>
                                 </div>
 
-                                <!-- Колонка Follow Us -->
                                 <div class="footer-column follow-column">
                                     <h4 class="column-title">Follow Us</h4>
-                                    <a href="#" class="footer-link">GitHub</a>
-                                    <a href="#" class="footer-link">Dribbble</a>
+                                    <a href="#" class="footer-link">Medium</a>
                                     <a href="#" class="footer-link">Instagram</a>
-                                    <a href="#" class="footer-link">YouTube</a>
+                                    <a href="#" class="footer-link">Twitter</a>
+                                    <a href="#" class="footer-link">Facebook</a>
                                 </div>
                             </div>
                         </div>
